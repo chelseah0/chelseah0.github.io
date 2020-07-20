@@ -1,5 +1,53 @@
 nav {
-    text-align: left
+    text-align: left;
+    line-height: 20px;
+}
+
+
+body{
+  font-family: 'Alegreya', serif;
+  background-image: url("musicmate.png");
+}
+
+icon{
+  margin: auto auto 30px auto;
+  border-radius: 100%;
+  width: 100px; height: 100px;
+}
+
+h1.heading{
+  font-size: 45;
+  text-align: left;
+  color: lightcoral;
+  line-height: 5px;
+}
+p.sub-heading1{
+  font-size: 20;
+  text-align: left;
+  line-height: 5px;
+}
+
+p.sub-heading2{
+  font-size: 20;
+  text-align: right;
+  line-height: 5px;
+}
+
+p.sub-heading3{
+  font-size: 20;
+  text-align: center;
+  line-height: 5px;
+}
+
+h2{
+  font-size: 25;
+  text-align: center;
+  color: darkslateblue;
+}
+
+input[name="name"] {
+  /* background-color: yellow; */
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 label.name {
@@ -14,17 +62,20 @@ h3{
   font-family: 'Alegreya', serif;
   font-style: 2.5rem;
 }
+
+p.skill-row{
+  text-align: left;
+  font-size: 15;
+}
 .top{
     /* add colour */
     background-color: #ffd3e1;
-    position: relative;
   }
   
   .middle{
     /* add colour */
     background-color: #e7eaf6;
-    padding-bottom: 20px;
-  
+    padding-bottom: 0px;
   }
   
   .bottom{
@@ -48,11 +99,11 @@ h3{
     margin-left: 30px;
   }
   
-  .skill-row{
+  /* .skill-row{
     width: 10%;
     margin: 50px auto 50px auto;
     text-align: left;
-  }
+  } */
 
 .links{
     padding: 25px;
