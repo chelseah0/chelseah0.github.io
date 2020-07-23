@@ -6,43 +6,61 @@ nav {
 
 body{
   font-family: 'Alegreya', serif;
-  background-image: url("musicmate.png");
 }
 
-icon{
-  margin: auto auto 30px auto;
-  border-radius: 100%;
-  width: 100px; height: 100px;
+img.center{
+  /* margin: 500px auto auto auto; */
+  /* border-radius: 100%; */
+  width: 150px; height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
 }
+
 
 h1.heading{
   font-size: 45;
-  text-align: left;
+  text-align: center;
   color: lightcoral;
   line-height: 5px;
 }
+
+/* do you love music */
 p.sub-heading1{
   font-size: 20;
   text-align: left;
-  line-height: 5px;
+  /* line-height: 5px; */
 }
 
+/* do you love social media */
 p.sub-heading2{
   font-size: 20;
   text-align: right;
-  line-height: 5px;
+  /* line-height: 5px; */
 }
 
+/* do you love meeting new people */
 p.sub-heading3{
   font-size: 20;
   text-align: center;
-  line-height: 5px;
+  /* line-height: 5px; */
 }
 
 h2{
   font-size: 25;
   text-align: center;
   color: darkslateblue;
+}
+
+h2.spacing{
+  font-size: 22;
+  text-align: left;
+  color: black;
+}
+
+.spacing{
+  display: inline;
 }
 
 input[name="name"] {
@@ -58,23 +76,54 @@ label.name {
   float: right;
   }
 
+h2.spacing{
+  text-align: center;
+}
+
 h3{
   font-family: 'Alegreya', serif;
   font-style: 2.5rem;
+  text-align: right;
+}
+
+img.earphones{
+  margin: auto auto auto auto;
+  /* border-radius: 100%; */
+  width: 80px; height: 80px;
+  float: left;
+}
+
+img.phone{
+  margin: auto auto auto auto;
+  /* border-radius: 100%; */
+  width: 50px; height: 80px;
+  float: right;
+}
+
+img.stickfriends{
+    /* margin: auto auto auto auto; */
+  /* border-radius: 100%; */
+  width: 80px; height: 50px;
+  margin-left: 500px;
 }
 
 p.skill-row{
   text-align: left;
   font-size: 15;
 }
+
+
 .top{
     /* add colour */
     background-color: #ffd3e1;
+    padding-bottom: 0px;
+
   }
   
   .middle{
     /* add colour */
     background-color: #e7eaf6;
+    /* background-image: image("musicmate.png"); */
     padding-bottom: 0px;
   }
   
@@ -83,6 +132,9 @@ p.skill-row{
     background-color: #ffd3e1;
   }
   
+hr{
+  display: inline;
+}
 
 .artificial-img{
     height: 20px;
